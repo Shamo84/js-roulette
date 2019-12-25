@@ -16,14 +16,6 @@ body > div,
 body > h1 {
   position: absolute;
 }
-#bottoni {
-  top: 2%;
-  left: 50%;
-  width: 20%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: space-around;
-}
 h1 {
   top: 2%;
   left: 50%;
@@ -36,9 +28,17 @@ h1 {
   padding: 1.5% 3%;
   background-color: rgba(107, 185, 164, 0.7);
 }
+#bottoni {
+  top: 1%;
+  left: 50%;
+  width: 20%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
 #bottoni button {
   color: white;
-  font-size: 4vw;
+  font-size: 6vw;
   font-style: italic;
   text-shadow: 2px 2px black;
   border-radius: 28% 0%;
@@ -96,6 +96,7 @@ button:hover {
   white-space: nowrap;
 }
 #overlay #ok {
+  color: white;
   border: 2px solid black;
   cursor: pointer;
   border-bottom-right-radius: 8px;
@@ -105,7 +106,6 @@ button:hover {
   line-height: 99%;
   font-size: 4.5vw;
 }
-
 .container {
   width: 32%;
   height: 65.4%;
@@ -113,6 +113,7 @@ button:hover {
   top: 23.9%;
   left: 3.6%;
   text-align: center;
+  overflow: hidden;
 }
 .container img {
   height: 100%;

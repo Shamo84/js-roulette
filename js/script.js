@@ -1176,39 +1176,39 @@ function () {
   // Verifica Esito Giocata
   if (TipoGiocata == 'NumeroSingolo') {
     if (NumeroSingolo == NumeroUscito) {
-      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
+      document.getElementById('esito').innerHTML = 'Hai vinto ' + VincitaPotenziale + ' €';
     } else  {
-      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
+      document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'Colonna') {
     if (Colonna == 'prima' && NumeroUscito % 3 == 1 || Colonna == 'seconda' && NumeroUscito % 3 == 2 || Colonna == 'terza' && NumeroUscito % 3 == 0) {
-      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
+      document.getElementById('esito').innerHTML = 'Hai vinto ' + VincitaPotenziale + ' €';
     } else  {
-      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
+      document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'Terzine') {
     if ((Terzine == '1 to 12' && NumeroUscito < 13 && NumeroUscito > 0) || (Terzine == '13 to 24' &&  NumeroUscito < 25 && NumeroUscito >= 13) || (Terzine == '25 to 36' &&  NumeroUscito <= 36 && NumeroUscito >= 25)) {
-      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
+      document.getElementById('esito').innerHTML = 'Hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
+      document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'PariDispari') {
     if (PariDispari == 'Pari' && NumeroUscito % 2 == 0 && NumeroUscito > 0 || PariDispari == 'Dispari' && NumeroUscito % 2 == 1) {
-      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
+      document.getElementById('esito').innerHTML = 'Hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
+      document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'Colore') {
     if (ColoreUtente == Colore) {
-      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
+      document.getElementById('esito').innerHTML = 'Hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
+      document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'FirstOrSecondHalf') {
     if (FirstOrSecondHalf == 'FirstHalf' &&  NumeroUscito < 19 && NumeroUscito > 0 || FirstOrSecondHalf == 'SecondHalf' && NumeroUscito >= 19) {
-      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
+      document.getElementById('esito').innerHTML = 'Hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
+      document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   }
   // setTimeout(function(){document.getElementById('num-uscito').innerHTML = NumeroUscito + Colore}, 8500);
