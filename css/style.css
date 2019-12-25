@@ -7,21 +7,20 @@ body {
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100% calc(100vw * 9 / 16);
+  background-size: 100% calc(100vw * 940 / 1920);
   width: 100%;
-  height: calc(100vw * 9 / 16);
+  height: calc(100vw * 940 / 1920);
   position: relative;
   /* overflow: hidden; */
 }
 .container {
-  width: 33%;
-  height: 59%;
+  width: 32%;
+  height: 65.4%;
   position: absolute;
-  top: 20%;
-  left: 3%;
+  top: 23.9%;
+  left: 3.6%;
   text-align: center;
 }
-
 .container img {
   height: 100%;
   width: auto;
@@ -30,23 +29,18 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-
 }
-
 #pallina {
   position: absolute;
   top: 50%;
   left: 50%;
 }
-
 .animation {
   animation-name: pallina;
   animation-duration: 8s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-
 }
-
 @keyframes pallina  {
 0%   {transform: translate(-50%, -50%) rotate(0deg);}
 77%  {transform: translate(-50%, -50%) rotate(960deg);}
@@ -55,18 +49,15 @@ body {
 96%  {transform: translate(-50%, calc(-50% + 19.7%)) rotate(1079.7deg);}
 100% {transform: translate(-50%, calc(-50% + 18%)) rotate(1080.3deg);}
 }
-
 button {
   display: inline-block;
   font-size: 40px;
 }
-
 .gioca-container {
   /* margin-top: 100px; */
   font-size: 40px;
   text-align: center;
 }
-
 .transform5050 {
   transform: translate(-50%, -50%);
 }
@@ -224,16 +215,16 @@ button {
 }
 
 #contenitore-numeri {
-/* background-color: black; */
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-position: absolute;
-top: 28.5%;
-left: 40%;
-width: 54%;
-height: 27.7%;
-cursor: pointer;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 32.7%;
+  left: 40%;
+  width: 54%;
+  height: 31.9%;
+  cursor: pointer;
 }
 #contenitore-numeri div:not(:first-child) {
   width: calc(100% / 14);
@@ -241,41 +232,38 @@ cursor: pointer;
 }
 
 #contenitore-numeri div:hover {
-  background-color: lightgreen;
+  background-color: greenyellow;
   opacity: 0.5;
 }
-
-
 #zero {
   width: calc(100% / 14);
   height: 100%;
 }
-
 #contenitore-tipo-giocata {
   /* background-color: yellow; */
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  top: 56.3%;
+  top: 64.6%;
   left: 43.9%;
   width: 46.3%;
-  height: 14.4%;
+  height: 16.6%;
   cursor: pointer;
 }
 
 #contenitore-tipo-giocata div:hover {
-  background-color: lightgreen;
+  background-color: greenyellow;
   opacity: 0.5;
 }
 
 .unterzo {
   width: calc(100% / 3);
-  height: 51.9%;
+  height: 50%;
 }
 
 .unsesto {
   width: calc(100% / 6);
-  height: 48.1%;
+  height: 50%;
 }
 
 #primo-12 {
