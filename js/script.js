@@ -14,10 +14,13 @@ var Colonna;
 // scelta Numero Singolo
 document.getElementById('zero').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sullo 0 ?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sullo 0 ?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 0;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -31,10 +34,14 @@ function () {
 });
 document.getElementById('uno').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sull'1 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sull'1 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 1;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
+
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -48,10 +55,14 @@ function () {
 });
 document.getElementById('due').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 2 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 2 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 2;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
+
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -65,10 +76,14 @@ function () {
 });
 document.getElementById('tre').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 3 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 3 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 3;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
+
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -82,10 +97,14 @@ function () {
 });
 document.getElementById('quattro').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 4 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 4 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 4;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
+
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -99,10 +118,14 @@ function () {
 });
 document.getElementById('cinque').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 5 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 5 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 5;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
+
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -116,10 +139,14 @@ function () {
 });
 document.getElementById('sei').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 6 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 6 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 6;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
+
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -133,10 +160,13 @@ function () {
 });
 document.getElementById('sette').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 7 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 7 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 7;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -150,10 +180,13 @@ function () {
 });
 document.getElementById('otto').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sull' 8 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sull' 8 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 8;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -167,10 +200,13 @@ function () {
 });
 document.getElementById('nove').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 9 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 9 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 9;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -184,10 +220,13 @@ function () {
 });
 document.getElementById('dieci').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 10 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 10 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 10;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -201,10 +240,13 @@ function () {
 });
 document.getElementById('undici').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 11 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 11 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 11;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -218,10 +260,13 @@ function () {
 });
 document.getElementById('dodici').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 12 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 12 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 12;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -235,10 +280,13 @@ function () {
 });
 document.getElementById('tredici').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 13 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 13 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 13;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -252,10 +300,13 @@ function () {
 });
 document.getElementById('quattordici').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 14 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 14 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 14;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -269,10 +320,13 @@ function () {
 });
 document.getElementById('quindici').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 15 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 15 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 15;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -286,10 +340,13 @@ function () {
 });
 document.getElementById('sedici').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 16 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 16 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 16;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -303,10 +360,13 @@ function () {
 });
 document.getElementById('diciasette').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 17 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 17 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 17;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -320,10 +380,13 @@ function () {
 });
 document.getElementById('diciotto').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 18 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 18 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 18;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -337,10 +400,13 @@ function () {
 });
 document.getElementById('diciannove').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 19 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 19 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 19;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -354,10 +420,13 @@ function () {
 });
 document.getElementById('venti').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 20 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 20 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 20;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -371,10 +440,13 @@ function () {
 });
 document.getElementById('ventuno').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 21 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 21 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 21;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -388,10 +460,13 @@ function () {
 });
 document.getElementById('ventidue').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 22 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 22 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 22;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -405,10 +480,13 @@ function () {
 });
 document.getElementById('ventitre').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 23 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 23 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 23;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -422,10 +500,13 @@ function () {
 });
 document.getElementById('ventiquattro').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 24 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 24 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 24;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -439,10 +520,13 @@ function () {
 });
 document.getElementById('venticinque').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 25 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 25 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 25;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -456,10 +540,13 @@ function () {
 });
 document.getElementById('ventisei').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 26 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 26 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 26;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -473,10 +560,13 @@ function () {
 });
 document.getElementById('ventisette').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 27 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 27 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 27;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -490,10 +580,13 @@ function () {
 });
 document.getElementById('ventotto').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 28 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 28 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 28;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -507,10 +600,13 @@ function () {
 });
 document.getElementById('ventinove').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 29 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 29 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 29;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -524,10 +620,13 @@ function () {
 });
 document.getElementById('trenta').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 30 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 30 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 30;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -541,10 +640,13 @@ function () {
 });
 document.getElementById('trentuno').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 31 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 31 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 31;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -558,10 +660,13 @@ function () {
 });
 document.getElementById('trentadue').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 32 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 32 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 32;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -575,10 +680,13 @@ function () {
 });
 document.getElementById('trentatre').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 33 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 33 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 33;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -592,10 +700,13 @@ function () {
 });
 document.getElementById('trentaquattro').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 34 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 34 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 34;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -609,10 +720,13 @@ function () {
 });
 document.getElementById('trentacinque').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 35 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 35 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 35;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -626,10 +740,13 @@ function () {
 });
 document.getElementById('trentasei').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sul 36 ?");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sul 36 ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'NumeroSingolo';
     NumeroSingolo = 36;
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -645,10 +762,13 @@ function () {
 // Scelta Colonne
 document.getElementById('primacolonna').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sulla prima colonna");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sulla prima colonna ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colonna';
     Colonna = 'prima';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -662,10 +782,13 @@ function () {
 });
 document.getElementById('secondacolonna').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sulla seconda colonna");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sulla seconda colonna ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colonna';
     Colonna = 'seconda';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -679,10 +802,13 @@ function () {
 });
 document.getElementById('terzacolonna').addEventListener('click',
 function () {
-  Puntata = prompt("Quanto vuoi giocare sulla terza colonna");
+  Puntata = parseInt(prompt("Quanto vuoi giocare sulla terza colonna ?"));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colonna';
     Colonna = 'terza';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -698,10 +824,13 @@ function () {
 // scelta Terzine
 document.getElementById('primo-12').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul "1 to 12"?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul "1 to 12"?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Terzine';
     Terzine = '1 to 12';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -715,10 +844,13 @@ function () {
 });
 document.getElementById('secondo-12').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul "13 to 24"?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul "13 to 24"?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Terzine';
     Terzine = '13 to 24';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -732,10 +864,13 @@ function () {
 });
 document.getElementById('terzo-12').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul "25 to 36"?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul "25 to 36"?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Terzine';
     Terzine = '25 to 36';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -751,10 +886,13 @@ function () {
 // Scelta Pari o Dispari
 document.getElementById('pari').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul pari?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul pari?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'PariDispari';
     PariDispari = 'Pari';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -769,10 +907,13 @@ function () {
 
 document.getElementById('dispari').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul dispari?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul dispari?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'PariDispari';
     PariDispari = 'Dispari';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -788,10 +929,13 @@ function () {
 // Scelta Rosso o Nero
 document.getElementById('rosso').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul rosso?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul rosso?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colore';
     ColoreUtente = 'Rosso';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -806,10 +950,13 @@ function () {
 
 document.getElementById('nero').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul nero?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul nero?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colore';
     ColoreUtente = 'Nero';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -825,10 +972,13 @@ function () {
 // Scelta prima o seconda metà
 document.getElementById('oneto18').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul "1 to 18"?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul "1 to 18"?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'FirstOrSecondHalf';
     FirstOrSecondHalf = 'FirstHalf';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -842,10 +992,13 @@ function () {
 });
 document.getElementById('nineteento36').addEventListener('click',
 function () {
-  Puntata = prompt('Quanto vuoi giocare sul "19 to 36"?');
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul "19 to 36"?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'FirstOrSecondHalf';
     FirstOrSecondHalf = 'SecondHalf';
+    document.getElementById('titolo').className = 'hidden';
+    document.getElementById('inner-roulette').className = 'transform5050';
+    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -862,11 +1015,15 @@ function () {
 document.getElementById('gioca').addEventListener('click',
 function () {
   RandomNum = Math.floor(Math.random() * 37);
-  document.getElementById('random-num').innerHTML = RandomNum;
+  document.getElementById('gioca').className = "hidden";
   document.getElementById('pallina').classList.add('animation');
+  document.getElementById('overlay-container').className = "";
+  document.getElementById('overlay').classList.add("hidden");
+
   if (RandomNum == 0) {
     NumeroUscito = 0;
     document.getElementById('inner-roulette').classList.add('rotate0');
+    Colore = "";
   } else if (RandomNum == 1) {
     NumeroUscito = 32;
     document.getElementById('inner-roulette').classList.add('rotate1');
@@ -1012,53 +1169,55 @@ function () {
     document.getElementById('inner-roulette').classList.add('rotate36');
     Colore = 'Nero';
   }
+  document.getElementById('giocata').innerHTML = "Hai giocato: " + Puntata + " € " + document.getElementById('tipo-giocata').innerHTML;
+  document.getElementById('risultato').innerHTML = "E' uscito: " + NumeroUscito + " " + Colore;
+  setTimeout(function(){document.getElementById('overlay').classList.remove("hidden")}, 8500);
 
   // Verifica Esito Giocata
-  setTimeout(function(){document.getElementById('num-uscito').innerHTML = NumeroUscito + Colore}, 8500);
   if (TipoGiocata == 'NumeroSingolo') {
     if (NumeroSingolo == NumeroUscito) {
-      setTimeout(function(){ alert('hai vinto ' + VincitaPotenziale + ' €' )}, 8500);
+      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
     } else  {
-      setTimeout(function(){ alert('hai perso!!')}, 8500);
+      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'Colonna') {
     if (Colonna == 'prima' && NumeroUscito % 3 == 1 || Colonna == 'seconda' && NumeroUscito % 3 == 2 || Colonna == 'terza' && NumeroUscito % 3 == 0) {
-      setTimeout(function(){ alert('hai vinto ' + VincitaPotenziale + ' €' )}, 8500);
+      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
     } else  {
-      setTimeout(function(){ alert('hai perso!!')}, 8500);
+      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'Terzine') {
     if ((Terzine == '1 to 12' && NumeroUscito < 13 && NumeroUscito > 0) || (Terzine == '13 to 24' &&  NumeroUscito < 25 && NumeroUscito >= 13) || (Terzine == '25 to 36' &&  NumeroUscito <= 36 && NumeroUscito >= 25)) {
-      setTimeout(function(){ alert('hai vinto ' + VincitaPotenziale + ' €' )}, 8500);
+      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      setTimeout(function(){ alert('hai perso!!')}, 8500);
+      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'PariDispari') {
     if (PariDispari == 'Pari' && NumeroUscito % 2 == 0 && NumeroUscito > 0 || PariDispari == 'Dispari' && NumeroUscito % 2 == 1) {
-      setTimeout(function(){ alert('hai vinto ' + VincitaPotenziale + ' €' )}, 8500);
+      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      setTimeout(function(){ alert('hai perso!!')}, 8500);
+      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'Colore') {
     if (ColoreUtente == Colore) {
-      setTimeout(function(){ alert('hai vinto ' + VincitaPotenziale + ' €' )}, 8500);
+      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      setTimeout(function(){ alert('hai perso!!')}, 8500);
+      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
     }
   } else if (TipoGiocata == 'FirstOrSecondHalf') {
     if (FirstOrSecondHalf == 'FirstHalf' &&  NumeroUscito < 19 && NumeroUscito > 0 || FirstOrSecondHalf == 'SecondHalf' && NumeroUscito >= 19) {
-      setTimeout(function(){ alert('hai vinto ' + VincitaPotenziale + ' €' )}, 8500);
+      document.getElementById('esito').innerHTML = 'hai vinto ' + VincitaPotenziale + ' €';
     } else {
-      setTimeout(function(){ alert('hai perso!!')}, 8500);
+      document.getElementById('esito').innerHTML = 'hai perso ' + Puntata + ' €';
     }
   }
+  // setTimeout(function(){document.getElementById('num-uscito').innerHTML = NumeroUscito + Colore}, 8500);
+  setTimeout(function(){document.getElementById('puntata').className = "hidden"}, 8500);
+  setTimeout(function(){document.getElementById('vincita-potenziale').className = "hidden"}, 8500);
 });
 
-
-document.getElementById('reset').addEventListener('click',
-function () {
-  document.getElementById('inner-roulette').className = 'transform5050';
-  document.getElementById('pallina').classList.remove('animation');
-  document.getElementById('random-num').innerHTML = "";
-  document.getElementById('num-uscito').innerHTML = "";
+document.getElementById('ok').addEventListener('click',
+function() {
+  document.getElementById('overlay-container').className = "hidden";
+  document.getElementById('titolo').className = "";
 });

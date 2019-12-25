@@ -8,16 +8,22 @@
   <title>Roulette</title>
 </head>
 <body>
+  <h1 id="titolo">Fai il tuo gioco!</h1>
   <div class="container">
     <img id="outer-roulette" src="img/roulette.png" alt="outer roulette">
     <img id="inner-roulette" class="transform5050" src="img/roulette2.png" alt="inner roulette">
     <img id="pallina" class="transform5050" src="img/ball_sfondo.png" alt="ball">
   </div>
-  <div class="gioca-container">
-    <button id="gioca" class="hidden" type="button" name="button">Gioca</button>
-    <span id="random-num"></span>
-    <span id="num-uscito"></span>
-    <button id="reset" type="button" name="button">Reset</button>
+  <div id="bottoni">
+    <button id="gioca" class="hidden" type="button" name="button">gioca</button>
+  </div>
+  <div id="overlay-container" class="hidden" >
+    <div id="overlay" class="overlay">
+      <span id="giocata"></span>
+      <span id="risultato"></span>
+      <span id="esito"></span>
+      <span id="ok">OK</span>
+    </div>
   </div>
   <div id="contenitore-numeri">
     <div id="zero"></div>
@@ -72,14 +78,22 @@
     <div id="oneto18" class="unsesto"></div>
     <div id="nineteento36" class="unsesto"></div>
   </div>
-  <div id="puntata" class="hidden">
-    <h2>Puntata: € </h2>
-    <span id="importo-puntata"></span>
-    <span id="tipo-giocata"></span>
-  </div>
-  <div id="vincita-potenziale" class="hidden">
-    <h2>Vincita potenziale: &euro; </h2>
-    <span id="importo-vincita-pot"></span>
+  <div id="contatori">
+    <div id="balance">
+      <span>Balance: € </span>
+      <span id="balance"></span>
+    </div>
+    <hr>
+    <div id="puntata" class="hidden">
+      <span>Puntata: € </span>
+      <span id="importo-puntata"></span>
+      <span id="tipo-giocata"></span>
+    </div>
+    <hr>
+    <div id="vincita-potenziale" class="hidden">
+      <span>Vincita potenziale: &euro; </span>
+      <span id="importo-vincita-pot"></span>
+    </div>
   </div>
   <script src="js/script.js" charset="utf-8"></script>
 </body>

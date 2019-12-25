@@ -4,15 +4,108 @@
   margin: 0;
 }
 body {
+  width: 100%;
+  height: calc(100vw * 940 / 1920);
+  position: relative;
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% calc(100vw * 940 / 1920);
+}
+body > div,
+body > h1 {
+  position: absolute;
+}
+#bottoni {
+  top: 2%;
+  left: 50%;
+  width: 20%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 3.9vw;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+  border-radius: 28% 0%;
+  padding: 1.5% 3%;
+  background-color: rgba(107, 185, 164, 0.7);
+}
+#bottoni button {
+  color: white;
+  font-size: 4vw;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+  border-radius: 28% 0%;
+  padding: 3% 5%;
+  background-color: rgba(107, 185, 164, 0.7);
+}
+button:hover {
+  cursor: pointer;
+}
+#contatori {
+  display: flex;
+  flex-direction: column;
+  top: 1%;
+  right: 1%;
+  /* width: 32%; */
+  height: 17%;
+}
+#contatori hr {
+  border-color: rgba(107, 185, 164, 0.9);
+}
+#contatori > div {
+  color: white;
+  font-size: 2vw;
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+  height: calc(100% / 3);
+  width: 100%;
+}
+#overlay-container {
+  left: 0;
+  top: 0;
   width: 100%;
   height: calc(100vw * 940 / 1920);
-  position: relative;
-  /* overflow: hidden; */
+  z-index: 10;
 }
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+
+#overlay span {
+  width: 50%;
+  height: 27%;
+  line-height: 130%;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+}
+#overlay #ok {
+  border: 2px solid black;
+  cursor: pointer;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: rgba(127, 185, 220, 0.7);
+  height: 19%;
+  line-height: 99%;
+  font-size: 4.5vw;
+}
+
 .container {
   width: 32%;
   height: 65.4%;
@@ -48,15 +141,6 @@ body {
 93%  {transform: translate(-50%, calc(-50% + 16.5%)) rotate(1081deg);}
 96%  {transform: translate(-50%, calc(-50% + 19.7%)) rotate(1079.7deg);}
 100% {transform: translate(-50%, calc(-50% + 18%)) rotate(1080.3deg);}
-}
-button {
-  display: inline-block;
-  font-size: 40px;
-}
-.gioca-container {
-  /* margin-top: 100px; */
-  font-size: 40px;
-  text-align: center;
 }
 .transform5050 {
   transform: translate(-50%, -50%);
@@ -230,7 +314,6 @@ button {
   width: calc(100% / 14);
   height: calc(100% / 3);
 }
-
 #contenitore-numeri div:hover {
   background-color: greenyellow;
   opacity: 0.5;
@@ -250,57 +333,21 @@ button {
   height: 16.6%;
   cursor: pointer;
 }
-
 #contenitore-tipo-giocata div:hover {
   background-color: greenyellow;
   opacity: 0.5;
 }
-
 .unterzo {
   width: calc(100% / 3);
   height: 50%;
 }
-
 .unsesto {
   width: calc(100% / 6);
   height: 50%;
 }
 
-#primo-12 {
-}
-
-
-#rosso {
-}
-
-#nero {
-}
-
 .hidden {
-display: none;  transition: 1s;
-}
-
-.visible {
-  display: inline-block;
+  display: none;
+  /* opacity: 0; */
   transition: 1s;
-}
-
-#puntata {
- position: absolute;
- top: 2%;
- right: 10%;
-}
-
-#puntata h2 {
-  display: inline-block;
-}
-
-#vincita-potenziale {
-  position: absolute;
-  top: 7%;
-  right: 10%;
-}
-
-#vincita-potenziale h2 {
-  display: inline-block;
 }
