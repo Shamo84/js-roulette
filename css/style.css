@@ -7,10 +7,11 @@ body {
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100% auto;
+  background-size: 100% calc(100vw * 9 / 16);
   width: 100%;
-  height: calc(100vw * 1080 / 1920);
+  height: calc(100vw * 9 / 16);
   position: relative;
+  /* overflow: hidden; */
 }
 .container {
   width: 33%;
@@ -220,4 +221,98 @@ button {
 .rotate36 {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 36));
   transition: ease 8s;
+}
+
+#contenitore-numeri {
+/* background-color: black; */
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+position: absolute;
+top: 28.5%;
+left: 40%;
+width: 54%;
+height: 27.7%;
+cursor: pointer;
+}
+#contenitore-numeri div:not(:first-child) {
+  width: calc(100% / 14);
+  height: calc(100% / 3);
+}
+
+#contenitore-numeri div:hover {
+  background-color: lightgreen;
+  opacity: 0.5;
+}
+
+
+#zero {
+  width: calc(100% / 14);
+  height: 100%;
+}
+
+#contenitore-tipo-giocata {
+  /* background-color: yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 56.3%;
+  left: 43.9%;
+  width: 46.3%;
+  height: 14.4%;
+  cursor: pointer;
+}
+
+#contenitore-tipo-giocata div:hover {
+  background-color: lightgreen;
+  opacity: 0.5;
+}
+
+.unterzo {
+  width: calc(100% / 3);
+  height: 51.9%;
+}
+
+.unsesto {
+  width: calc(100% / 6);
+  height: 48.1%;
+}
+
+#primo-12 {
+}
+
+
+#rosso {
+}
+
+#nero {
+}
+
+.hidden {
+display: none;  transition: 1s;
+}
+
+.visible {
+  display: inline-block;
+  transition: 1s;
+}
+
+#puntata {
+ position: absolute;
+ top: 2%;
+ right: 10%;
+}
+
+#puntata h2 {
+  display: inline-block;
+}
+
+#vincita-potenziale {
+  position: absolute;
+  top: 7%;
+  right: 10%;
+}
+
+#vincita-potenziale h2 {
+  display: inline-block;
 }
