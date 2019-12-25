@@ -4,6 +4,7 @@
   margin: 0;
 }
 body {
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
   height: calc(100vw * 940 / 1920);
   position: relative;
@@ -23,9 +24,9 @@ h1 {
   color: white;
   font-size: 3.9vw;
   font-style: italic;
-  text-shadow: 2px 2px black;
+  text-shadow: 0.2vw 0.2vw black;
   border-radius: 28% 0%;
-  padding: 1.5% 3%;
+  padding: 1.5% 1%;
   background-color: rgba(107, 185, 164, 0.7);
 }
 #bottoni {
@@ -37,12 +38,13 @@ h1 {
   justify-content: space-around;
 }
 #bottoni button {
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 6vw;
   font-style: italic;
-  text-shadow: 2px 2px black;
+  text-shadow: 0.2vw 0.2vw black;
   border-radius: 28% 0%;
-  padding: 3% 5%;
+  padding: 1% 5%;
   background-color: rgba(107, 185, 164, 0.7);
 }
 button:hover {
@@ -63,7 +65,7 @@ button:hover {
   color: white;
   font-size: 2vw;
   font-weight: 700;
-  text-shadow: 2px 2px black;
+  text-shadow: 0.2vw 0.2vw black;
   height: calc(100% / 3);
   width: 100%;
 }
@@ -84,12 +86,11 @@ button:hover {
   font-size: 5vw;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 8px;
+  border-radius: 0.8vw;
 }
-
 #overlay span {
   width: 50%;
-  height: 27%;
+  height: 26%;
   line-height: 130%;
   text-align: center;
   width: 100%;
@@ -97,14 +98,15 @@ button:hover {
 }
 #overlay #ok {
   color: white;
-  border: 2px solid black;
+  border: 0.2vw solid black;
   cursor: pointer;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 0.8vw;
+  border-bottom-left-radius: 0.8vw;
   background-color: rgba(127, 185, 220, 0.7);
-  height: 19%;
-  line-height: 99%;
+  height: 22%;
+  line-height: 112%;
   font-size: 4.5vw;
+  font-weight: 700;
 }
 .container {
   width: 32%;
