@@ -24,7 +24,7 @@ h1 {
   color: white;
   font-size: 3.9vw;
   font-style: italic;
-  text-shadow: 0.2vw 0.2vw black;
+  text-shadow: .2vw .2vw black;
   border-radius: 28% 0%;
   padding: 1.5% 1%;
   background-color: rgba(107, 185, 164, 0.7);
@@ -42,7 +42,7 @@ h1 {
   color: white;
   font-size: 6vw;
   font-style: italic;
-  text-shadow: 0.2vw 0.2vw black;
+  text-shadow: .2vw .2vw black;
   border-radius: 28% 0%;
   padding: 1% 5%;
   background-color: rgba(107, 185, 164, 0.7);
@@ -65,9 +65,12 @@ button:hover {
   color: white;
   font-size: 2vw;
   font-weight: 700;
-  text-shadow: 0.2vw 0.2vw black;
+  text-shadow: .2vw .2vw black;
   height: calc(100% / 3);
   width: 100%;
+}
+#contatori > div:not(:first-child) {
+  border-top: .2vh solid rgb(107, 185, 164);
 }
 #overlay-container {
   left: 0;
@@ -87,9 +90,9 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   border-radius: 0.8vw;
+  text-shadow: .2vw .2vw rgb(107, 185, 164);
 }
 #overlay span {
-  width: 50%;
   height: 26%;
   line-height: 130%;
   text-align: center;
@@ -98,15 +101,16 @@ button:hover {
 }
 #overlay #ok {
   color: white;
-  border: 0.2vw solid black;
+  border: .2vw solid black;
   cursor: pointer;
   border-bottom-right-radius: 0.8vw;
   border-bottom-left-radius: 0.8vw;
-  background-color: rgba(127, 185, 220, 0.7);
+  background-color: rgb(107, 185, 164);
   height: 22%;
   line-height: 112%;
   font-size: 4.5vw;
   font-weight: 700;
+  text-shadow: .2vw .2vw black;
 }
 .container {
   width: 32%;

@@ -927,9 +927,9 @@ function () {
 });
 
 // Scelta Rosso o Nero
-document.getElementById('rosso').addEventListener('click',
+document.getElementById('Rosso').addEventListener('click',
 function () {
-  Puntata = parseInt(prompt('Quanto vuoi giocare sul rosso?'));
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul Rosso?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colore';
     ColoreUtente = 'Rosso';
@@ -939,7 +939,7 @@ function () {
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
-    document.getElementById('tipo-giocata').innerHTML = 'sul rosso';
+    document.getElementById('tipo-giocata').innerHTML = 'sul Rosso';
     VincitaPotenziale = Puntata * 2;
     document.getElementById('importo-vincita-pot').innerHTML = VincitaPotenziale;
     document.getElementById('vincita-potenziale').className = 'visible';
@@ -948,9 +948,9 @@ function () {
   }
 });
 
-document.getElementById('nero').addEventListener('click',
+document.getElementById('Nero').addEventListener('click',
 function () {
-  Puntata = parseInt(prompt('Quanto vuoi giocare sul nero?'));
+  Puntata = parseInt(prompt('Quanto vuoi giocare sul Nero?'));
   if (!isNaN(Puntata) && Puntata > 0) {
     TipoGiocata = 'Colore';
     ColoreUtente = 'Nero';
@@ -960,7 +960,7 @@ function () {
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
-    document.getElementById('tipo-giocata').innerHTML = 'sul nero';
+    document.getElementById('tipo-giocata').innerHTML = 'sul Nero';
     VincitaPotenziale = Puntata * 2;
     document.getElementById('importo-vincita-pot').innerHTML = VincitaPotenziale;
     document.getElementById('vincita-potenziale').className = 'visible';
@@ -1169,7 +1169,7 @@ function () {
     document.getElementById('inner-roulette').classList.add('rotate36');
     Colore = 'Nero';
   }
-  document.getElementById('giocata').innerHTML = "Hai giocato: " + Puntata + " € " + document.getElementById('tipo-giocata').innerHTML;
+  document.getElementById('giocata').innerHTML = "Hai puntato: " + Puntata + " € " + document.getElementById('tipo-giocata').innerHTML;
   document.getElementById('risultato').innerHTML = "E' uscito: " + NumeroUscito + " " + Colore;
   setTimeout(function(){document.getElementById('overlay').classList.remove("hidden")}, 8500);
 
