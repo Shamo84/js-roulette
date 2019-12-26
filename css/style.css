@@ -29,7 +29,33 @@ h1 {
   padding: 1.5% 1%;
   background-color: rgba(107, 185, 164, 0.7);
 }
-#bottoni {
+
+#deposita-preleva {
+  left: 7.2%;
+  top: 1%;
+  white-space: nowrap;
+}
+
+#deposita-preleva button {
+  width: 55%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2.2vw;
+  font-style: italic;
+  text-shadow: .2vw .2vw black;
+  padding: 1% 2%;
+  background-color: rgba(107, 185, 164, 0.7);
+}
+
+#deposita {
+  border-radius: 0 28%;
+}
+
+#preleva {
+  border-radius: 28% 0%;
+
+}
+#gioca-container {
   top: 1%;
   left: 50%;
   width: 20%;
@@ -37,7 +63,7 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
-#bottoni button {
+#gioca-container button {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 6vw;
