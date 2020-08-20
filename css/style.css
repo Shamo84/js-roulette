@@ -148,6 +148,13 @@ button:hover {
   height: 100%;
   width: auto;
 }
+#roulette-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 #inner-roulette {
   position: absolute;
   top: 50%;
@@ -191,17 +198,14 @@ button:hover {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 3));
   transition: ease 8s;
 }
-
 .rotate4 {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 4));
   transition: ease 8s;
 }
-
 .rotate5 {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 5));
   transition: ease 8s;
 }
-
 .rotate6 {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 6));
   transition: ease 8s;
@@ -210,7 +214,6 @@ button:hover {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 7));
   transition: ease 8s;
 }
-
 .rotate8 {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 8));
   transition: ease 8s;
@@ -327,6 +330,154 @@ button:hover {
   transform: translate(-50%, -50%) rotate(calc(-1080deg - 9.73deg * 36));
   transition: ease 8s;
 }
+.rotateX0 {
+  transform: translate(-50%, -50%);
+  transition: ease 8s;
+}
+.rotateX1 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 1));
+  transition: ease 8s;
+}
+.rotateX2 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 2));
+  transition: ease 8s;
+}
+.rotateX3 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 3));
+  transition: ease 8s;
+}
+.rotateX4 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 4));
+  transition: ease 8s;
+}
+.rotateX5 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 5));
+  transition: ease 8s;
+}
+.rotateX6 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 6));
+  transition: ease 8s;
+}
+.rotateX7 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 7));
+  transition: ease 8s;
+}
+.rotateX8 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 8));
+  transition: ease 8s;
+}
+.rotateX9 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 9));
+  transition: ease 8s;
+}
+.rotateX10 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 10));
+  transition: ease 8s;
+}
+.rotateX11 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 11));
+  transition: ease 8s;
+}
+.rotateX12 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 12));
+  transition: ease 8s;
+}
+.rotateX13 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 13));
+  transition: ease 8s;
+}
+.rotateX14 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 14));
+  transition: ease 8s;
+}
+.rotateX15 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 15));
+  transition: ease 8s;
+}
+.rotateX16 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 16));
+  transition: ease 8s;
+}
+.rotateX17 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 17));
+  transition: ease 8s;
+}
+.rotateX18 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 18));
+  transition: ease 8s;
+}
+.rotateX19 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 19));
+  transition: ease 8s;
+}
+.rotateX20 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 20));
+  transition: ease 8s;
+}
+.rotateX21 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 21));
+  transition: ease 8s;
+}
+.rotateX22 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 22));
+  transition: ease 8s;
+}
+.rotateX23 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 23));
+  transition: ease 8s;
+}
+.rotateX24 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 24));
+  transition: ease 8s;
+}
+.rotateX25 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 25));
+  transition: ease 8s;
+}
+.rotateX26 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 26));
+  transition: ease 8s;
+}
+.rotateX27 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 27));
+  transition: ease 8s;
+}
+.rotateX28 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 28));
+  transition: ease 8s;
+}
+.rotateX29 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 29));
+  transition: ease 8s;
+}
+.rotateX30 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 30));
+  transition: ease 8s;
+}
+.rotateX31 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 31));
+  transition: ease 8s;
+}
+.rotateX32 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 32));
+  transition: ease 8s;
+}
+.rotateX33 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 33));
+  transition: ease 8s;
+}
+.rotateX34 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 34));
+  transition: ease 8s;
+}
+.rotateX35 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 35));
+  transition: ease 8s;
+}
+.rotateX36 {
+  transform: translate(-50%, -50%) rotate(calc(9.73deg * 36));
+  transition: ease 8s;
+}
 
 #contenitore-numeri {
   /* background-color: red; */
@@ -380,4 +531,33 @@ button:hover {
   display: none;
   /* opacity: 0; */
   transition: 1s;
+}
+
+.balance-update {
+  animation-name: BalanceUpdate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes BalanceUpdate {
+ 0% {
+  color: white;
+  transform: scale(1);
+  }
+ 25% {
+  color: red;
+  transform: scale(1.05);
+  }
+ 50% {
+   color: white;
+   transform: scale(1);
+  }
+ 75% {
+   color: red;
+   transform: scale(1.05);
+  }
+ 100% {
+   color: white;
+   transform: scale(1);
+  }
 }

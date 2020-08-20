@@ -49,8 +49,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -72,9 +70,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
-
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -96,9 +91,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
-
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -120,9 +112,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
-
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -144,9 +133,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
-
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -168,9 +154,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
-
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -192,9 +175,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
-
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -216,8 +196,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -239,8 +217,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -262,8 +238,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -285,8 +259,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -308,8 +280,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -331,8 +301,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -354,8 +322,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -377,8 +343,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -400,8 +364,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -423,8 +385,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -446,8 +406,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -469,8 +427,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -492,8 +448,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -515,8 +469,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -538,8 +490,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -561,8 +511,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -584,8 +532,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -607,8 +553,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -630,8 +574,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -653,8 +595,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -676,8 +616,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -699,8 +637,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -722,8 +658,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -745,8 +679,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -768,8 +700,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -791,8 +721,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -814,8 +742,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -837,8 +763,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -860,8 +784,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -883,8 +805,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -908,8 +828,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -931,8 +849,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -954,8 +870,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -979,8 +893,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1002,8 +914,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1025,8 +935,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1050,8 +958,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1074,8 +980,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1099,8 +1003,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1123,8 +1025,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1148,8 +1048,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1171,8 +1069,6 @@ function () {
     Puntata = TentativoPuntata;
     document.getElementById('balance').innerHTML = Balance;
     document.getElementById('titolo').className = 'hidden';
-    document.getElementById('inner-roulette').className = 'transform5050';
-    document.getElementById('pallina').classList.remove('animation');
     document.getElementById('gioca').className = 'visible';
     document.getElementById('puntata').className = 'visible';
     document.getElementById('importo-puntata').innerHTML = Puntata;
@@ -1193,6 +1089,7 @@ function () {
   document.getElementById('pallina').classList.add('animation');
   document.getElementById('overlay-container').className = "";
   document.getElementById('overlay').classList.add("hidden");
+  document.getElementById('roulette-container').classList.add('rotateX' + Math.floor(Math.random() * 37));
   if (RandomNum == 0) {
     NumeroUscito = 0;
     document.getElementById('inner-roulette').classList.add('rotate0');
@@ -1392,7 +1289,9 @@ function () {
       document.getElementById('esito').innerHTML = 'Hai perso ' + Puntata + ' €';
     }
   }
-  setTimeout(function(){document.getElementById('balance').innerHTML = Balance}, 8500);
+  setTimeout(function(){document.getElementById('balance').innerHTML = Balance}, 9500);
+  setTimeout(function(){document.getElementById('balance-container').className = 'balance-update'}, 8500);
+  setTimeout(function(){document.getElementById('balance-container').className = ''}, 10500);
   setTimeout(function(){document.getElementById('puntata').className = "hidden"}, 8500);
   setTimeout(function(){document.getElementById('vincita-potenziale').className = "hidden"}, 8500);
 });
@@ -1402,4 +1301,7 @@ function() {
   document.getElementById('overlay-container').className = "hidden";
   document.getElementById('titolo').className = "";
   Puntata = 0;
+  document.getElementById('inner-roulette').className = 'transform5050';
+  document.getElementById('roulette-container').className = 'transform5050';
+  document.getElementById('pallina').classList.remove('animation');
 });
